@@ -4,9 +4,20 @@
   "description": "1. 라이브 서버와 익스프레스 서버를 연동\r 2. Supabase 관련 세팅 + DOM/fetch\r 3. gemini, groq -> chaining, ensemble\r 4. 배포 (github pages, render)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.21.0",
+    "@supabase/supabase-js": "^2.58.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "groq-sdk": "^0.33.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
