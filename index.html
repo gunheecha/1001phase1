@@ -37,7 +37,7 @@
       const planForm = document.querySelector("#planForm");
       // 함수
       async function renderPlans() {
-        const url = "http://localhost:3000/plans";
+        const url = "https://one001phase1.onrender.com/plans";
         const response = await fetch(url);
         const data = await response.json();
         console.log(data);
@@ -59,7 +59,7 @@
           removeBtn.addEventListener("click", async () => {
             // const planId = p.id;
             const { id: planId } = p;
-            const url = "http://localhost:3000/plans";
+            const url = "https://one001phase1.onrender.com/plans";
             const response = await fetch(url, {
               method: "DELETE", // #1
               headers: {
@@ -86,7 +86,7 @@
         // fromEntries -> 객체화
         const planObj = Object.fromEntries(formData.entries());
         console.log(planObj);
-        const url = "http://localhost:3000/plans";
+        const url = "https://one001phase1.onrender.com/plans";
         const response = await fetch(url, {
           method: "POST", // #1
           headers: {
