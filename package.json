@@ -1,0 +1,12 @@
+{
+  "name": "1001phase1",
+  "version": "1.0.0",
+  "description": "1. 라이브 서버와 익스프레스 서버를 연동\r 2. Supabase 관련 세팅 + DOM/fetch\r 3. gemini, groq -> chaining, ensemble\r 4. 배포 (github pages, render)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
